@@ -22,6 +22,38 @@ notebooks/: Jupyter notebooks for exploratory data analysis (EDA) and model eval
 requirements.txt: List of dependencies required to run the project.
 README.md: Project description, setup instructions, and usage guidelines.
 
+**Getting Started**
+
+**Prerequisites**
+
+Ensure the following have been installed:
+Python 3.x
+OpenCV
+Dlib
+NumPy
+SciPy
+
+**Setup Instructions**
+
+**Clone the repository:**
+bash
+**Copy code**
+git clone https://github.com/yourusername/face-detection-recognition.git
+cd face-detection-recognition
+
+**Install dependencies:**
+bash
+**Copy code**
+pip install -r requirements.txt
+Download the pre-trained models:
+
+Download the shape_predictor_68_face_landmarks.dat and dlib_face_recognition_resnet_model_v1.dat files from the Dlib model zoo.
+Place them in the models/ directory.
+
+**Run the project:**
+
+You can run the face detection and recognition pipeline using the provided scripts in the src/ directory.
+
 **Usage**
 
 Face Detection:
